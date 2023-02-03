@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURVEY FORM</title>
+    <link rel="stylesheet" href="survey.css">
+</head>
+<body>
+     <form id="box">
+    <h1 >Customer Survey Form</h1>
+    <h4>Please fill this form with honest feedback</h4>
+        <div>
+            <h2> Personal Details:</h2> <br>
+          <p id="name">NAME: <input type="text" placeholder="Enter your name" required> </p>
+          <p>Email: <input type="email" required placeholder="Enter your Email"></p> 
+          <p>Age: <input type="number" required placeholder="Enter your age"></p>
+          <p>Date:<input type="date"></p>
+        </div>
+        <h2>Customer Experience</h2>
+        <div>
+            <table class="table">
+                <tr>
+                    <th>Category</th>
+                    <th>Excellent</th>
+                    <th>Good</th>
+                    <th>Fair</th>
+                    <th>Poor</th>
+                </tr>
+                <tr>
+                    <td>Overall Experience:</td>
+                    <td><input type="checkbox" value="excellent" class="input-checkbox"></td>
+                    <td><input type="checkbox" value="good" class="input-checkbox"></td>
+                    <td><input type="checkbox" value="fair" class="input-checkbox"></td>
+                    <td><input type="checkbox" value="poor" class="input-checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Order accuracy:</td>
+                    <td><input type="checkbox" value="excellent" class="input-checkbox"></td>
+                    <td><input type="checkbox" value="good" class="input-checkbox"></td>
+                    <td><input type="checkbox" value="fair" class="input-checkbox"></td>
+                    <td><input type="checkbox" value="poor" class="input-checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Food quality:</td>
+                    <td><input type="checkbox" value="excellent" class="input-checkbox"></td>
+                    <td><input type="checkbox" value="good" class="input-checkbox"></td>
+                    <td><input type="checkbox" value="fair" class="input-checkbox"></td>
+                    <td><input type="checkbox" value="poor" class="input-checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Value:</td>
+                    <td><input type="checkbox" value="excellent" class="input-checkbox"></td>
+                    <td><input type="checkbox" value="good" class="input-checkbox"></td>
+                    <td><input type="checkbox" value="fair" class="input-checkbox"></td>
+                    <td><input type="checkbox" value="poor" class="input-checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Cleanliness:</td>
+                    <td><input type="checkbox" value="excellent" class="input-checkbox"></td>
+                    <td><input type="checkbox" value="good" class="input-checkbox"></td>
+                    <td><input type="checkbox" value="fair" class="input-checkbox"></td>
+                    <td><input type="checkbox" value="poor" class="input-checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Speed of Service:</td>
+                    <td><input type="checkbox" value="excellent" class="input-checkbox"></td>
+                    <td><input type="checkbox" value="good" class="input-checkbox"></td>
+                    <td><input type="checkbox" value="fair" class="input-checkbox"></td>
+                    <td><input type="checkbox" value="poor" class="input-checkbox"></td>
+                </tr>
+            </table>            
+        </div>
+        <div class="recommendation">
+            <h2>General Survey</h2>
+            <div>
+            <p class="bold">Would you eat here again with your friends/family?</p><br>
+            <input type="radio" value="Yes" name="radio" class="gap">
+            <label>Yes</label><br>
+            <input type="radio" value="No" name="radio" class="gap">
+            <label >No</label>
+            </div>
+            <div>
+            <p class="bold">How often do you eat out? </p>
+             <select>
+              <option disabled selected value>Select an option </option>
+              <option value="1-2weeks">1-2 weeks</option>
+              <option value="2-3 weeks">2-3 weeks</option>
+              <option value="1-2 months">1-2 months</option>
+              <option value="More than 3 months">More than 3 months</option>    
+            </select>
+            </div>
+           <div class="recommend">
+            <p class="bold">How did you find about us?(check all that apply)</p>
+            <label><input type="checkbox" value="friend">Recommendation From a friend</label><br>
+            <label><input type="checkbox" value="friend">Google</label><br>
+            <label><input type="checkbox" value="friend">Social Media</label><br>
+            <label><input type="checkbox" value="friend">Television</label><br>
+            <label><input type="checkbox" value="friend">Others</label><br>
+           </div>
+           <div>
+            <p class="bold">Any Comments or Suggestions?</p>
+            <textarea placeholder="Enter Your Comments Here..."></textarea>
+           </div>
+           <div>
+            <button id="submit"  > <a href="thanks.html">Submit</a> </button>
+           </div>
+        </div>
+    </form>
+</body>
+</html>
