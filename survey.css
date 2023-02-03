@@ -1,0 +1,92 @@
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-wrap: normal;
+}
+body{
+    text-align: center;
+    margin: 5% auto; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  /* background: linear-gradient(-135deg , #c850c0,#4158d0);*/
+      background: url(image/wheater.jpg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+     
+}
+#box{
+       width: 700px;
+       height: 1600px; 
+       margin: 10% auto;  
+       text-align: center;  
+       border: 2px solid black;
+       box-shadow: 0px 0px 10px rgba(0, 0,0, 0.2);
+       background: transparent;
+       background: rgba(0, 0,0, 0.1); 
+      /* background-color: aliceblue; */  
+}
+h1{
+    font-family: 'Lobster',cursive;
+}
+h2{
+    font-family: 'Lobster',cursive,;
+    text-decoration: underline;
+}
+input{
+    background: transparent;
+}
+input[type="text"]{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 50%;
+}
+input[type="email"]{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 50%;
+}
+input[type="number"]{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 50%;
+}
+input[type="date"]{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 50%;
+}
+table{
+    width: 80%;
+    margin: 0% auto;
+    overflow-x: auto;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+th{
+    font-size: 25px;
+}
+.bold{
+    font-weight: bold;
+}
+select{
+      background: transparent;
+      border: 2px solid black;
+      
+      width: 30%;   
+}
+label{
+    text-align: left;
+}
+textarea{
+    width: 500px;
+    height: 150px;
+    background: transparent;
+    color: white;
+}
+button{
+    width: 80%;
+    color: whitesmoke;
+    background-color: rgb(6, 6, 73);
+}
